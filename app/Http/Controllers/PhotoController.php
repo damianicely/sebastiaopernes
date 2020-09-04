@@ -132,16 +132,16 @@ class PhotoController extends Controller
     {
         $imageSize = [ 'x' => 1800, 'l' => 1200, 'm' => 768, 's' => 576, 't' => 250 ];
 
-        $optimizerChain = OptimizerChainFactory::create();
+ //       $optimizerChain = OptimizerChainFactory::create();
 
-        $optimizerChain->optimize($path);
+//        $optimizerChain->optimize($path);
 
         $base = imagecreatefromjpeg($path);
 
         foreach ($imageSize as $key => $value) {
             $resizedImage = imagescale($base, $value);
             imagejpeg($resizedImage, 'photos'.'/'.$key.'-'.$reference.'.jpg');
-            $optimizerChain->optimize('photos'.'/'.$key.'-'.$reference.'.jpg');
+//            $optimizerChain->optimize('photos'.'/'.$key.'-'.$reference.'.jpg');
         }
         list($height) = getImageSize( $path);
         list($xheight) = getImageSize("photos/x-$reference.jpg");
