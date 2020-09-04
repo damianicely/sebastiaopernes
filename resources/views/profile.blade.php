@@ -39,7 +39,7 @@
                       <h4 data-zanim-xs='{"delay":0.1}'>@lang('profile.title')</h4>
                     </div>
                     <div class="overflow-hidden">
-                      <h6 class="text-700 font-weight-normal text-uppercase ls mb-4" data-zanim-xs='{"delay":0.2}'>Photographer - Hiking Guide - Pirate</h6>
+                      <h6 class="text-700 font-weight-normal text-uppercase ls mb-4" data-zanim-xs='{"delay":0.2}'>@lang('profile.subtitle')</h6>
                     </div>
                   </div>
                   <div class="col-sm-7 col-lg-12">
