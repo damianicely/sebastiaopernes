@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Photo;
 use Storage;
 use Illuminate\Http\Request;
+use Spatie\ImageOptimizer\OptimizerChainFactory;
 
 class PhotoController extends Controller
 {
@@ -65,18 +66,12 @@ class PhotoController extends Controller
             'description' => request('description'),
             'file_name' => $photoName,
             'file_path' => $path,
-            'width' => $dimensions[0][0],
-            'height' =>  $dimensions[0][1],
-            'x-width' =>  $dimensions[1][0],
-            'x-height' =>  $dimensions[1][1],
-            'l-width' =>  $dimensions[2][0],
-            'l-height' =>  $dimensions[2][1],
-            'm-width' =>  $dimensions[3][0],
-            'm-height' =>  $dimensions[3][1],
-            's-width' =>  $dimensions[4][0],
-            's-height' =>  $dimensions[4][1],
-            't-width' =>  $dimensions[5][0],
-            't-height' =>  $dimensions[5][1],
+            'height' =>  $dimensions[0],
+            'x-height' =>  $dimensions[1],
+            'l-height' =>  $dimensions[2],
+            'm-height' =>  $dimensions[3],
+            's-height' =>  $dimensions[4],
+            't-height' =>  $dimensions[5],
 
         ]);
         return redirect()->route('dashboard');
@@ -136,16 +131,25 @@ class PhotoController extends Controller
     public function optimizeImages( $path, $reference )
     {
         $imageSize = [ 'x' => 1800, 'l' => 1200, 'm' => 768, 's' => 576, 't' => 250 ];
-        foreach ($imageSize as $key => $value) {
-            exec("mogrify -write photos/$key-$reference.jpg -filter Triangle -define filter:support=2 -thumbnail $value -unsharp 0.25x0.08+8.3+0.045 -dither None -posterize 136 -quality 82 -define jpeg:fancy-upsampling=off -interlace none -colorspace sRGB $path");
-        }
-        list($width, $height) = getImageSize( $path);
-        list($xwidth, $xheight) = getImageSize("photos/x-$reference.jpg");
-        list($lwidth, $lheight) = getImageSize("photos/l-$reference.jpg");
-        list($mwidth, $mheight) = getImageSize("photos/m-$reference.jpg");
-        list($swidth, $sheight) = getImageSize("photos/s-$reference.jpg");
-        list($twidth, $theight) = getImageSize("photos/t-$reference.jpg");
 
-        return [ [$width, $height], [$xwidth, $xheight], [$lwidth, $lheight], [$mwidth, $mheight], [$swidth, $sheight], [$twidth, $theight], ];
+        $optimizerChain = OptimizerChainFactory::create();
+
+        $optimizerChain->optimize($path);
+
+        $base = imagecreatefromjpeg($path);
+
+        foreach ($imageSize as $key => $value) {
+            $resizedImage = imagescale($base, $value);
+            imagejpeg($resizedImage, 'photos'.'/'.$key.'-'.$reference.'.jpg');
+            $optimizerChain->optimize('photos'.'/'.$key.'-'.$reference.'.jpg');
+        }
+        list($height) = getImageSize( $path);
+        list($xheight) = getImageSize("photos/x-$reference.jpg");
+        list($lheight) = getImageSize("photos/l-$reference.jpg");
+        list($mheight) = getImageSize("photos/m-$reference.jpg");
+        list($sheight) = getImageSize("photos/s-$reference.jpg");
+        list($theight) = getImageSize("photos/t-$reference.jpg");
+
+        return [ $height, $xheight, $lheight, $mheight, $sheight, $theight, ];
     }
 }
