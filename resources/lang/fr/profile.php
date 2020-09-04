@@ -2,7 +2,7 @@
 return [
     // Main
     'title'=>'Sebastião Pernes',
-    'subtitle'=>'Photographe - Guide - Pirate',
+    'subtitle'=>'Photographe - Guide - Skipper',
     'content'=>' La photographie en noir et blanc fait partie du mode de vie de Sebastião depuis la jeunesse. C’est alors que, « squattant » la salle de bain familiale, il s’initie aux secrets du développement et du tirage. Depuis, l’appareil photo est un compagnon de route, jamais très loin quand la lumière l’interpelle.
 
     Plus qu’un passe-temps, la photographie représente pour lui le moyen privilégié pour noter impressions et émotions, une sorte de « journal de bord ».

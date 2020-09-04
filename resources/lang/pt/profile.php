@@ -2,7 +2,7 @@
 return [
     // Main
     'title'=>'Sebastião Pernes',
-    'subtitle'=>'Fotógrafo - Guia - Pirata',
+    'subtitle'=>'Fotógrafo - Guia - Capitão',
     'content'=>'A fotografia a preto e branco acompanha a vida de Sebastião desde a juventude. Foi quando, “ocupando” a casa de banho da família, começou a lidar com as artes de revelar e ampliar. 
 
     Desde então, a máquina fotográfica faz parte da sua mochila, sempre à mão quando a luz o interpela.
