@@ -16,21 +16,15 @@ class CreatePhotosTable extends Migration
         Schema::create('photos', function (Blueprint $table) {
             $table->id();
             $table->unsignedSmallInteger('reference');
-            $table->enum('collection', ['cape st vincent','costa vicentina','storm waves','shorelines','skylines']);
+            $table->enum('collection', ['costa vicentina','cape st vincent','storm waves','shorelines','skylines','islands']);
             $table->string('description');
             $table->string('file_name');
             $table->string('file_path');
-            $table->unsignedSmallInteger('width')->nullable();
             $table->unsignedSmallInteger('height')->nullable();
-            $table->unsignedSmallInteger('x-width')->nullable();
             $table->unsignedSmallInteger('x-height')->nullable();
-            $table->unsignedSmallInteger('l-width')->nullable();
             $table->unsignedSmallInteger('l-height')->nullable();
-            $table->unsignedSmallInteger('m-width')->nullable();
             $table->unsignedSmallInteger('m-height')->nullable();
-            $table->unsignedSmallInteger('s-width')->nullable();
             $table->unsignedSmallInteger('s-height')->nullable();
-            $table->unsignedSmallInteger('t-width')->nullable();
             $table->unsignedSmallInteger('t-height')->nullable();
             $table->timestamps();
         });

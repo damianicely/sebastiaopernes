@@ -64,7 +64,8 @@
       <option value="costa vicentina" {{ old("collection") == "costa vicentina" ? "selected":"" }}>costa vicentina</option>
       <option value="storm waves" {{ old("collection") == "storm waves" ? "selected":"" }}>storm waves</option>
       <option value="shorelines" {{ old("collection") == "shorelines" ? "selected":"" }}>shorelines</option>
-      <option value="sky lines" {{ old("collection") == "sky lines" ? "selected":"" }}>sky lines</option>
+      <option value="skylines" {{ old("collection") == "skylines" ? "selected":"" }}>skylines</option>
+      <option value="islands" {{ old("collection") == "islands" ? "selected":"" }}>islands</option>
     </select>
   </div>
 </div>
