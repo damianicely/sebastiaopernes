@@ -59,20 +59,19 @@ class PhotoController extends Controller
         }
 
         $reference = request( 'reference' );
-        $dimensions = $this->optimizeImages( $path, $reference );
+//        $dimensions = $this->optimizeImages( $path, $reference );
         Photo::create([
             'reference' => request('reference'),
             'collection' => request('collection'),
             'description' => request('description'),
             'file_name' => $photoName,
             'file_path' => $path,
-            'height' =>  $dimensions[0],
-            'x-height' =>  $dimensions[1],
-            'l-height' =>  $dimensions[2],
-            'm-height' =>  $dimensions[3],
-            's-height' =>  $dimensions[4],
-            't-height' =>  $dimensions[5],
-
+//            'height' =>  $dimensions[0],
+//            'x-height' =>  $dimensions[1],
+//            'l-height' =>  $dimensions[2],
+//            'm-height' =>  $dimensions[3],
+//            's-height' =>  $dimensions[4],
+//            't-height' =>  $dimensions[5],
         ]);
         return redirect()->route('dashboard');
     }
