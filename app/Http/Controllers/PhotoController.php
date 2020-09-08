@@ -55,10 +55,9 @@ class PhotoController extends Controller
             $photoPath = $request->file('photofile');
             $photoName = $photoPath->getClientOriginalName(); // time().'_'.$request->file->getClientOriginalName()
             // Store the file and save the returned path as $path
-            $path = Storage::putFile('photos',$photoPath,'public');
+            $ref = request( 'reference' );
+            $path = Storage::putFileAs('photos/originals',$photoPath,"$ref");
         }
-
-        $reference = request( 'reference' );
 //        $dimensions = $this->optimizeImages( $path, $reference );
         Photo::create([
             'reference' => request('reference'),
@@ -66,12 +65,6 @@ class PhotoController extends Controller
             'description' => request('description'),
             'file_name' => $photoName,
             'file_path' => $path,
-//            'height' =>  $dimensions[0],
-//            'x-height' =>  $dimensions[1],
-//            'l-height' =>  $dimensions[2],
-//            'm-height' =>  $dimensions[3],
-//            's-height' =>  $dimensions[4],
-//            't-height' =>  $dimensions[5],
         ]);
         return redirect()->route('dashboard');
     }

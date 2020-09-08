@@ -130,23 +130,7 @@
             </div>
           </div>
         </div>
-      </footer>
-  
-    <!-- Cookie Notice-->
-    <div class="toast bg-dark text-white shadow-none notice" id="cookie-notice" role="alert" data-options='{"autoShow":false,"autoShowDelay":5000,"showOnce":true,"cookieExpireTime":7200000}' data-autohide="false" aria-live="assertive" aria-atomic="true">
-      <div class="toast-body p-4">
-        <button class="close text-white text-shadow-none position-absolute t-0 r-0 p-2 mr-1 fs-1" type="button" data-dismiss="toast" aria-label="Close"><span aria-hidden="true">×</span></button>
-        <div class="media">
-          <img class="mr-3" src="/img/icons/cookie-notice.png" width="50" alt="" />
-          <div class="media-body">
-            <p class="fs-0 ls text-sans-serif">Our site uses cookies. By continuing to use our site, you agree to our
-              <a class="text-white text-underline" href="components/sparrow/cookie-notice.html">Cookie Policy.</a>
-            </p>
-            <button class="btn btn-outline-light btn-sm text-uppercase border-700" type="button" data-dismiss="toast" aria-label="Close">Ok, I understand</button>
-          </div>
-        </div>
-      </div>
-    </div>
+    </footer>
 
     <!--===============================================-->
     <!--    Modal for language selection-->
