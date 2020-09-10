@@ -83,8 +83,8 @@
   
                   <div class="row no-gutters sortable-container sortable-container-gutter-fix">
                     @foreach ($photos as $photo)
-                      <a class="col-6 col-md-3 sortable-item p-2 {{ str_replace(' ', '', $photo->collection) }}" href="photos/x-{{ $photo->reference }}.jpg" data-lightbox="image" data-title="{{ $photo->description }}">
-                        <img class="w-100 rounded" src="photos/t-{{ $photo->reference }}.jpg" alt=""/>
+                      <a class="col-6 col-md-3 sortable-item p-2 {{ str_replace(' ', '', $photo->collection) }}" href="x-{{ $photo->reference }}.jpg" data-lightbox="image" data-title="{{ $photo->description }}">
+                        <img class="w-100 rounded" src="t-{{ $photo->reference }}.jpg" alt=""/>
                       </a>                      
                     @endforeach
                   </div>
