@@ -27,8 +27,8 @@
                 @if ($photo->collection == "costa vicentina")
                     <div class="row">
                         <div class="col">
-                            <a href="photos/x-{{ $photo->reference }}.jpg">
-                                <img width="100px" src="/photos/t-{{ $photo->reference }}.jpg" alt="">
+                            <a href="x-{{ $photo->reference }}.jpg">
+                                <img width="100px" src="t-{{ $photo->reference }}.jpg" alt="">
                             </a>
                         </div>
                         <div class="col">
@@ -52,8 +52,8 @@
                 @if ($photo->collection == "cape st vincent")
                     <div class="row">
                         <div class="col">
-                            <a href="photos/x-{{ $photo->reference }}.jpg">
-                                <img width="100px" src="/photos/t-{{ $photo->reference }}.jpg" alt="">
+                            <a href="x-{{ $photo->reference }}.jpg">
+                                <img width="100px" src="t-{{ $photo->reference }}.jpg" alt="">
                             </a>
                         </div>
                         <div class="col">
@@ -77,8 +77,8 @@
                 @if ($photo->collection == "storm waves")
                     <div class="row">
                         <div class="col">
-                            <a href="photos/x-{{ $photo->reference }}.jpg">
-                                <img width="100px" src="/photos/t-{{ $photo->reference }}.jpg" alt="">
+                            <a href="x-{{ $photo->reference }}.jpg">
+                                <img width="100px" src="t-{{ $photo->reference }}.jpg" alt="">
                             </a>
                         </div>
                         <div class="col">
@@ -102,8 +102,8 @@
                 @if ($photo->collection == "shorelines")
                     <div class="row">
                         <div class="col">
-                            <a href="photos/x-{{ $photo->reference }}.jpg">
-                                <img width="100px" src="/photos/t-{{ $photo->reference }}.jpg" alt="">
+                            <a href="x-{{ $photo->reference }}.jpg">
+                                <img width="100px" src="t-{{ $photo->reference }}.jpg" alt="">
                             </a>
                         </div>
                         <div class="col">
@@ -127,8 +127,8 @@
                 @if ($photo->collection == "Skylines")
                     <div class="row">
                         <div class="col">
-                            <a href="photos/x-{{ $photo->reference }}.jpg">
-                                <img width="100px" src="/photos/t-{{ $photo->reference }}.jpg" alt="">
+                            <a href="x-{{ $photo->reference }}.jpg">
+                                <img width="100px" src="t-{{ $photo->reference }}.jpg" alt="">
                             </a>
                         </div>
                         <div class="col">
@@ -152,8 +152,8 @@
                 @if ($photo->collection == "islands")
                     <div class="row">
                         <div class="col">
-                            <a href="photos/x-{{ $photo->reference }}.jpg">
-                                <img width="100px" src="/photos/t-{{ $photo->reference }}.jpg" alt="">
+                            <a href="x-{{ $photo->reference }}.jpg">
+                                <img width="100px" src="t-{{ $photo->reference }}.jpg" alt="">
                             </a>
                         </div>
                         <div class="col">
