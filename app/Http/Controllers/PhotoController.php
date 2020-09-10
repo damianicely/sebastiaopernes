@@ -56,7 +56,7 @@ class PhotoController extends Controller
             $photoName = $photoPath->getClientOriginalName(); // time().'_'.$request->file->getClientOriginalName()
             // Store the file and save the returned path as $path
             $ref = request( 'reference' );
-            $path = Storage::putFileAs('photos/originals',$photoPath,"$ref");
+            $path = Storage::putFileAs('photos/uploads',$photoPath,"$ref");
         }
 //        $dimensions = $this->optimizeImages( $path, $reference );
         Photo::create([
