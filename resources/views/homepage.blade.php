@@ -87,6 +87,7 @@
                     <div class="item" data-filter=".stormwaves">storm waves</div>
                     <div class="item" data-filter=".shorelines">shorelines</div>
                     <div class="item" data-filter=".skylines">skylines</div>
+                    <div class="item" data-filter=".islands">islands</div>
                   </div>
   
                   <div class="row no-gutters sortable-container sortable-container-gutter-fix">
