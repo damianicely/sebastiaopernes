@@ -124,7 +124,7 @@
 {{-------------------------------------------------------------------}}
 <h5>Skylines</h5>
                 @foreach ($photos as $photo)
-                @if ($photo->collection == "Skylines")
+                @if ($photo->collection == "skylines")
                     <div class="row">
                         <div class="col">
                             <a href="x-{{ $photo->reference }}.jpg">
