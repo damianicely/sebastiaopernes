@@ -36,6 +36,14 @@
                 <div class="bg-holder spalsh_three"></div>
                 <!--/.bg-holder-->
               </div>
+              <div class="min-vh-100 w-100">
+                <div class="bg-holder spalsh_four"></div>
+                <!--/.bg-holder-->
+              </div>
+              <div class="min-vh-100 w-100">
+                <div class="bg-holder spalsh_five"></div>
+                <!--/.bg-holder-->
+              </div>
             </div>
           </div>
           <div class="container">

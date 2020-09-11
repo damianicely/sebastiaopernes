@@ -14,44 +14,54 @@
     <!-- ===============================================-->
     <!--    Favicons-->
     <!-- ===============================================-->
-    <link rel="manifest" href="/img/favicons/manifest.json">
-    <meta name="msapplication-TileImage" content="/img/favicons/mstile-150x150.png">
+    <link rel="manifest" href="img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="img/favicons/mstile-150x150.png">
     <meta name="theme-color" content="#ffffff">
 
     <!-- ===============================================-->
     <!--    Stylesheets-->
     <!-- ===============================================-->
-    <link href="/lib/loaders.css/loaders.min.css" rel="stylesheet">
+    <link href="lib/loaders.css/loaders.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Mono%7cPT+Serif:400,400i%7cLato:100,300,400,700,800,900" rel="stylesheet">
-    <link href="/lib/fancybox/jquery.fancybox.min.css" rel="stylesheet">
-    <link href="/lib/owl.carousel/owl.carousel.css" rel="stylesheet">
-    <link href="/lib/lightbox2/css/lightbox.min.css" rel="stylesheet">
-    <link href="/css/theme.css" rel="stylesheet">
+    <link href="lib/fancybox/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="lib/owl.carousel/owl.carousel.css" rel="stylesheet">
+    <link href="lib/lightbox2/css/lightbox.min.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
     <style>
       @media (max-width: 575.98px) {
-        .spalsh_one {background-image:url(/img/s-205-splash.jpg);}
-        .spalsh_two {background-image:url(/img/s-402-splash.jpg);}
-        .spalsh_three {background-image:url(/img/s-503-splash.jpg);}
+        .spalsh_one {background-image:url(img/lua-mobile.jpg);}
+        .spalsh_two {background-image:url(img/310-mobile.jpg);}
+        .spalsh_three {background-image:url(img/108-mobile.jpg);}
+        .spalsh_four {background-image:url(img/s-503-mobile.jpg);}
+        .spalsh_five {background-image:url(img/402-mobile.jpg);}
       }
       @media (min-width: 576px) {
-        .spalsh_one {background-image:url(/img/s-402.jpg);}
-        .spalsh_two {background-image:url(/img/s-114.jpg);}
-        .spalsh_three {background-image:url(/img/s-117.jpg);}
+        .spalsh_one {background-image:url(img/lua-mobile.jpg);}
+        .spalsh_two {background-image:url(img/310-tablet.jpg);}
+        .spalsh_three {background-image:url(img/108-tablet.jpg);}
+        .spalsh_four {background-image:url(img/503-tablet.jpg);}
+        .spalsh_five {background-image:url(img/402-tablet.jpg);}
       }
       @media (min-width: 768px) {
-        .spalsh_one {background-image:url(/img/m-208.jpg);}
-        .spalsh_two {background-image:url(/img/m-114.jpg);}
-        .spalsh_three {background-image:url(/img/m-117.jpg);}
+        .spalsh_one {background-image:url(img/m-102.jpg);}
+        .spalsh_two {background-image:url(img/m-114.jpg);}
+        .spalsh_three {background-image:url(img/m-201.jpg);}
+        .spalsh_four {background-image:url(img/m-303.jpg);}
+        .spalsh_five {background-image:url(img/m-504.jpg);}
       }
       @media (min-width: 992px) {
-        .spalsh_one {background-image:url(/img/l-208.jpg);}
-        .spalsh_two {background-image:url(/img/l-114.jpg);}
-        .spalsh_three {background-image:url(/img/l-117.jpg);}
+        .spalsh_one {background-image:url(img/l-102.jpg);}
+        .spalsh_two {background-image:url(img/l-114.jpg);}
+        .spalsh_three {background-image:url(img/l-201.jpg);}
+        .spalsh_four {background-image:url(img/l-303.jpg);}
+        .spalsh_five {background-image:url(img/l-504.jpg);}
       }
       @media (min-width: 1200px) {
-        .spalsh_one {background-image:url(/img/x-208.jpg);}
-        .spalsh_two {background-image:url(/img/x-114.jpg);}
-        .spalsh_three {background-image:url(/img/x-117.jpg);}
+        .spalsh_one {background-image:url(img/x-102.jpg);}
+        .spalsh_two {background-image:url(img/x-114.jpg);}
+        .spalsh_three {background-image:url(img/x-201.jpg);}
+        .spalsh_four {background-image:url(img/x-303.jpg);}
+        .spalsh_five {background-image:url(img/x-504.jpg);}
       }
       </style>
   </head>
@@ -178,21 +188,21 @@
     <!-- ===============================================-->
     <!--    JavaScripts-->
     <!-- ===============================================-->
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/popper.min.js"></script>
-    <script src="/js/bootstrap.js"></script>
-    <script src="/js/plugins.js"></script>
-    <script src="/lib/loaders.css/loaders.css.js"></script>
-    <script src="/js/stickyfill.min.js"></script>
-    <script src="/lib/is_js/is.min.js"></script>
-    <script src="/lib/jtap/jquery.tap.js"></script>
-    <script src="/js/rellax.min.js"></script>
-    <script src="/lib/fancybox/jquery.fancybox.min.js"></script>
-    <script src="/lib/owl.carousel/owl.carousel.js"></script>
-    <script src="/lib/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="/lib/isotope-packery/packery-mode.pkgd.min.js"></script>
-    <script src="/lib/lightbox2/js/lightbox.min.js"></script>
-    <script src="/js/theme.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="lib/loaders.css/loaders.css.js"></script>
+    <script src="js/stickyfill.min.js"></script>
+    <script src="lib/is_js/is.min.js"></script>
+    <script src="lib/jtap/jquery.tap.js"></script>
+    <script src="js/rellax.min.js"></script>
+    <script src="lib/fancybox/jquery.fancybox.min.js"></script>
+    <script src="lib/owl.carousel/owl.carousel.js"></script>
+    <script src="lib/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="lib/isotope-packery/packery-mode.pkgd.min.js"></script>
+    <script src="lib/lightbox2/js/lightbox.min.js"></script>
+    <script src="js/theme.js"></script>
   </body>
 
 </html>
