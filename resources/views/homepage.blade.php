@@ -22,7 +22,7 @@
         <!-- ============================================-->
         <!-- End of Preloader ===========================-->
         <section class="p-0 position-relative" id="interior-header">
-          <div class="position-absolute a-0" data-zanim-lg='{"delay":0.4,"animation":"zoom-out"}' data-zanim-trigger="scroll">
+          <div class="position-absolute a-0">
             <div class="owl-carousel owl-theme owl-theme-white" data-options='{"items":1,"autoplay":true,"loop":true,"animateOut":"fadeOut","autoplayHoverPause":true,"nav":true,"dots":false}'>
               <div class="min-vh-100 w-100">
                 <div class="bg-holder spalsh_one"></div>
@@ -49,7 +49,7 @@
           <div class="container">
             <div class="row vh-100 align-items-center justify-content-center justify-content-lg-start py-10">
               <div class="col-11 col-sm-10 col-md-8 col-lg-6 col-xl-5 z-index-1">
-                <div class="p-4 p-sm-5 bg-glass border border-2x border-dark parallax overflow-hidden rounded" data-zanim-trigger="scroll" data-zanim-timeline='{"delay":0.6}' data-rellax-speed="3">
+                <div class="p-4 p-sm-5 bg-glass border border-2x border-dark parallax overflow-hidden rounded" data-zanim-trigger="scroll" data-zanim-timeline='{"delay":0.2}' data-rellax-speed="3">
                   <div class="overflow-hidden">
                     <h4 class="fs-1 fs-sm-2"><span class="d-block overflow-hidden"><span class="d-inline-block" data-zanim-xs='{"delay":0.1}'>Sebastião Pernes</span></span><span class="d-block overflow-hidden"><span class="d-inline-block" data-zanim-xs='{"delay":0.1}'>Photographia</span></span>
                     </h4>
