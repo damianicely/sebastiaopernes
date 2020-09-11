@@ -7123,6 +7123,10 @@ button.bg-dark:focus {
   border-color: #343a40 !important;
 }
 
+.border-blue {
+  border-color: #0002fc !important;
+}
+
 .border-white {
   border-color: #fff !important;
 }
