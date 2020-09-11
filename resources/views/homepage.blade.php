@@ -76,7 +76,7 @@
                     <div class="item active" data-filter="*">all</div>
                     <div class="item" data-filter=".capestvincent">cape st vincent</div>
                     <div class="item" data-filter=".costavicentina">costa vicentina</div>
-                    <div class="item" data-filter=".waves">storm waves</div>
+                    <div class="item" data-filter=".stormwaves">storm waves</div>
                     <div class="item" data-filter=".shorelines">shorelines</div>
                     <div class="item" data-filter=".skylines">skylines</div>
                   </div>
