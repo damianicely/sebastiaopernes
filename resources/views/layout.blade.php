@@ -32,7 +32,7 @@
         .spalsh_one {background-image:url(img/lua-mobile.jpg);}
         .spalsh_two {background-image:url(img/310-mobile.jpg);}
         .spalsh_three {background-image:url(img/108-mobile.jpg);}
-        .spalsh_four {background-image:url(img/s-503-mobile.jpg);}
+        .spalsh_four {background-image:url(img/503-mobile.jpg);}
         .spalsh_five {background-image:url(img/402-mobile.jpg);}
       }
       @media (min-width: 576px) {
