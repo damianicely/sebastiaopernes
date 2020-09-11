@@ -51,17 +51,17 @@
               <div class="col-11 col-sm-10 col-md-8 col-lg-6 col-xl-5 z-index-1">
                 <div class="p-4 p-sm-5 bg-glass border border-2x border-dark parallax overflow-hidden rounded" data-zanim-trigger="scroll" data-zanim-timeline='{"delay":0.6}' data-rellax-speed="3">
                   <div class="overflow-hidden">
-                    <h4 class="fs-1 fs-sm-2"><span class="d-block overflow-hidden"><span class="d-inline-block" data-zanim-xs='{"delay":0.1}'>Sebastião Pernes</span></span><span class="d-block overflow-hidden"><span class="d-inline-block" data-zanim-xs='{"delay":0.1}'>@lang('home.heading')</span></span>
+                    <h4 class="fs-1 fs-sm-2"><span class="d-block overflow-hidden"><span class="d-inline-block" data-zanim-xs='{"delay":0.1}'>Sebastião Pernes</span></span><span class="d-block overflow-hidden"><span class="d-inline-block" data-zanim-xs='{"delay":0.1}'>Photographia</span></span>
                     </h4>
                   </div>
                   <div class="row align-items-center">
                     <div class="col-6 overflow-hidden">
-                      <div data-zanim-xs='{"delay":0.6}'>
+                      <div data-zanim-xs='{"delay":0.1}'>
                         <a class="btn btn-dark btn-sm mt-4" href="#portfolio">Portfolio</a>
                       </div>
                     </div>  
                     <div class="col-6 overflow-hidden">
-                      <div class="mt-4" data-zanim-xs='{"delay":0.6}'>
+                      <div class="mt-4" data-zanim-xs='{"delay":0.1}'>
                         <img src="/img/logo/logo_egypt.png" width="150px">
                       </div>
                     </div>
