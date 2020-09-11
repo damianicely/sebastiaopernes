@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+@charset "UTF-8";
 
 /*!
  * Bootstrap v4.5.2 (https://getbootstrap.com/)
@@ -7121,10 +7122,6 @@ button.bg-dark:focus {
 
 .border-dark {
   border-color: #343a40 !important;
-}
-
-.border-blue {
-  border-color: #0002fc !important;
 }
 
 .border-white {
