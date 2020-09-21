@@ -23,6 +23,6 @@ return [
     'payment-heading'=>
         "Pagamentos",
     'payment-content'=>
-        " Pagamentos seguros on-line podem ser efectuados via PayPal. Também podem ser acordadas outras formas de pagamentos. Os custos de envio para Portugal estão incluídos. Para encomendar provas ou obter mais informação (outros formatos, direitos de reprodução) por favor contacte Sebastião",
+        " Pagamentos seguros on-line podem ser efectuados via PayPal. Também podem ser acordadas outras formas de pagamentos. Os custos de envio para Portugal estão incluídos. Para encomendar provas ou obter mais informação (outros formatos, direitos de reprodução) por favor <a href='/contact'>contacte Sebastião</a>",
     ];
 ?>

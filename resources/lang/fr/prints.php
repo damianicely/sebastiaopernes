@@ -28,6 +28,6 @@ return [
     'payment-heading'=>
         "Paiement",
     'payment-content'=>
-        "Le paiement, 100% sécurisé, peut être effectué sur Internet via PayPal. D’autres formes de paiement sont aussi possibles. Les frais de port pour le Portugal sont inclus. Pour passer une commande ou obtenir plus d'information (autres formats, droits de reproduction) prière de contacter Sebastião",
+        "Le paiement, 100% sécurisé, peut être effectué sur Internet via PayPal. D’autres formes de paiement sont aussi possibles. Les frais de port pour le Portugal sont inclus. Pour passer une commande ou obtenir plus d'information (autres formats, droits de reproduction) prière de <a href='/contact'>contacter Sebastião</a>",
     ];
 ?>

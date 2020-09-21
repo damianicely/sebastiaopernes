@@ -3,7 +3,7 @@ return [
     // Main
     'title'=>"Prints",
     'subtitle'=>"Fine art prints of the photographs displayed here can be purchased. All prints come in a limited edition, they are numbered and signed by the author. Two options are available:",
-    'diasic-heading'=>"DIASEC PRINTS",
+    'diasic-heading'=>"1 DIASEC PRINTS",
     'diasic-content'=>"
         <p class=\"mb-0 pr-sm-5 pr-lg-0\" data-zanim-xs='{\"delay\":0.3}'>
             Photographs are printed on Epson Doubleweight Matte Paper, certified Digigraphie ®, mounted in DIASEC ®, an exclusive and high quality proven face-mounting process. Prints are bonded directly and permanently to an Acrylic sheet, without borders. It eliminates thus the need for a frame and the print comes ready to hang.</p>
@@ -23,6 +23,6 @@ return [
     'payment-heading'=>"Payment",
     'payment-content'=>"
         Secure online payments can be made by PayPal. Other forms of payment can be agreed. Postages for Portugal are included in the price.
-        To order prints, for additional informations or other options (different formats or reproduction rights), please contact Sebastião",
+        To order prints, for additional informations or other options (different formats or reproduction rights), please <a href='/contact'> contact Sebastião </a>",
     ];
 ?>
