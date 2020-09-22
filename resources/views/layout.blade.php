@@ -14,19 +14,19 @@
     <!-- ===============================================-->
     <!--    Favicons-->
     <!-- ===============================================-->
-    <link rel="manifest" href="img/favicons/manifest.json">
+    <link rel="manifest" href="/img/favicons/manifest.json">
     <meta name="msapplication-TileImage" content="img/favicons/mstile-150x150.png">
     <meta name="theme-color" content="#ffffff">
 
     <!-- ===============================================-->
     <!--    Stylesheets-->
     <!-- ===============================================-->
-    <link href="lib/loaders.css/loaders.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=PT+Mono%7cPT+Serif:400,400i%7cLato:100,300,400,700,800,900" rel="stylesheet">
-    <link href="lib/fancybox/jquery.fancybox.min.css" rel="stylesheet">
-    <link href="lib/owl.carousel/owl.carousel.css" rel="stylesheet">
-    <link href="lib/lightbox2/css/lightbox.min.css" rel="stylesheet">
-    <link href="css/theme.css" rel="stylesheet">
+    <link href="/lib/loaders.css/loaders.min.css" rel="stylesheet">
+    <link href="/https://fonts.googleapis.com/css?family=PT+Mono%7cPT+Serif:400,400i%7cLato:100,300,400,700,800,900" rel="stylesheet">
+    <link href="/lib/fancybox/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="/lib/owl.carousel/owl.carousel.css" rel="stylesheet">
+    <link href="/lib/lightbox2/css/lightbox.min.css" rel="stylesheet">
+    <link href="/css/theme.css" rel="stylesheet">
     <style>
       @media (max-width: 575.98px) {
         .spalsh_one {background-image:url(img/lua-mobile.jpg);}

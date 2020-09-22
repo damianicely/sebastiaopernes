@@ -7,6 +7,6 @@ return [
     'nav-prints'=>'provas',
     // Footer
     'foot-love'=>'Criado com',
-    'foot-by'=>'pelo',
+    'foot-by'=>'por',
     ];
 ?>
