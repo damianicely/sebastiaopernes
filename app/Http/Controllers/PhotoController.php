@@ -66,7 +66,9 @@ class PhotoController extends Controller
             'file_name' => $photoName,
             'file_path' => $path,
         ]);
-        return redirect()->route('dashboard');
+        return redirect()->route('dashboard')
+        ->with('success',"$photoName added successfully please wait a couple of minutes for the photo to be optimized");
+;
     }
 
     /**
