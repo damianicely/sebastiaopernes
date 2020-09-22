@@ -59,7 +59,7 @@
                     <h4 class="fs-1">
                           <img src="/img/logo/logo_egypt.png" width="150px">  
                       <span class="d-block overflow-hidden">
-                        <span class="d-inline-block" data-zanim-xs='{"delay":0.1}'>PHOTOGRAFIA</span>
+                        <span class="d-inline-block" data-zanim-xs='{"delay":0.1}'>PHOTOGRAPHIA</span>
                       </span>
                     </h4>
                   </div>

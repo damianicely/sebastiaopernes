@@ -1,6 +1,6 @@
 <?php
 return [
     // Main
-    'heading'=>'Fotografia',
+    'heading'=>'Photographia',
     ];
 ?>
