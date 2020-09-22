@@ -19,15 +19,15 @@ return [
             <li>70 x 120 cm (limité a 5 tirages) 710 €</li>
         </ul>",
     'paper-heading'=>
-        "TIRAGES SUR PAPIER HAHNEMÜHLE",
+        "TIRAGES PAPIER HAHNEMÜHLE",
     'paper-content'=>
         "<p class=\"mb-2 pr-sm-5 pr-lg-0\" data-zanim-xs='{\"delay\":0.3}'>
-            Ce sont des impressions sur papier Hahnemühle Photo Rag ® Matt FineArt – 188 g. Ce papier blanc, 100% coton, assure une qualité exceptionnelle aux tirages d’art en noir et blanc, tout en garantissant  une excellente durabilité.</p>
+        Ce sont des impressions sur papier Hahnemühle Gloss Art Fibre – 300 gsm. Ce papier d’art fait de 100% pure cellulose alfa, est traité avec un revêtement premium brillant pour jet d’encre. Ils assurent une qualité exceptionnelle aux tirages d’art en noir et blanc, tout en garantissant une excellente durabilité.</p>
         <p class=\"mb-2 pr-sm-5 pr-lg-0\" data-zanim-xs='{\"delay\":0.3}'>
             24 x 40 cm (+ marge blanche de 5 cm, limité à 25 tirages) 60 €</p>",
     'payment-heading'=>
         "Paiement",
     'payment-content'=>
-        "Le paiement, 100% sécurisé, peut être effectué sur Internet via PayPal. D’autres formes de paiement sont aussi possibles. Les frais de port pour le Portugal sont inclus. Pour passer une commande ou obtenir plus d'information (autres formats, droits de reproduction) prière de <a href='/contact'>contacter Sebastião</a>",
+        "D’autres formats ou supports sont disponibles. Les frais de port pour le Portugal sont inclus.  Pour passer une commande ou obtenir plus d'information (autres formats, droits de reproduction), prière de <a href='/contact'>contacter Sebastião</a>",
     ];
 ?>

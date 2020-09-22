@@ -18,11 +18,11 @@ return [
     'paper-heading'=>"HAHNEMÜHLE PAPER PRINTS",
     'paper-content'=>"
         <p class=\"mb-2 pr-sm-5 pr-lg-0\" data-zanim-xs='{\"delay\":0.3}'>
-            Photographs are printed on Hahnemühle Photo Rag ® Matt FineArt - 188 gsm. This white, 100% cotton paper meets the highest standards regarding density, colour graduation and image sharpness while preserving the special touch and feel of genuine art paper. Being acid-free, it also guarantees archival standards.</p>
+        Photographs are printed on Gloss Art Fibre Paper from Harman by Hahnemuehle – 300 gsm. Made from a pure 100% alpha cellulose pulp and featuring a distinct texture and fine gloss finish, this acid-free paper delivers excellent quality fine art prints.</p>
             24 x 40 cm  (+ 5 cm white margin, limited to 25 prints) 60 €",
     'payment-heading'=>"Payment",
     'payment-content'=>"
-        Secure online payments can be made by PayPal. Other forms of payment can be agreed. Postages for Portugal are included in the price.
+    Other formats and medium are available on demand.  Postage for Portugal is included in the price.
         To order prints, for additional informations or other options (different formats or reproduction rights), please <a href='/contact'> contact Sebastião </a>",
     ];
 ?>

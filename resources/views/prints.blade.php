@@ -55,7 +55,7 @@
                   <div class="col-sm-7 col-lg-12">
                       <div class="overflow-hidden">
                           <h6 class="text-uppercase ls mt-4" data-zanim-xs='{"delay":0.3}'>
-                            @lang('prints-paper-heading')
+                            @lang('prints.paper-heading')
                           </h6>
                       </div>
                       <div class="overflow-hidden">

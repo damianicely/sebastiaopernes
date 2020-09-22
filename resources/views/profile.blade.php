@@ -50,7 +50,7 @@
                         
                         <h6 class="text-uppercase ls mt-4">@lang('profile.heading')</h6>
                         <ul>
-                          <li>«Mar Oceano» - EMARP, Portimão - 13.02 | 17.03.2017</li>
+                          <li>«Mar Oceano» - EMARP, Portimão - 2017</li>
                           <li>«Mar Oceano» - Vila do Bispo - 2016</li>
                           <li>«Mar Oceano» - Old Townhall, Lagos - 2015</li>
                           <li>Collective - Real Compromisso Marítimo, Ferragudo - 2015</li>

@@ -16,13 +16,13 @@ return [
             <li>54 x 90 cm (limitado a 10 provas) 450 €</li>
             <li>70 x 120 cm (limitado a 5 provas) 710 €</li>
         </ul> ",
-    'paper-heading'=>"PROVAS EM PAPEL HAHNEMÜHLE",
+    'paper-heading'=>"IMPRESSÕES EM PAPEL HAHNEMUELE",
     'paper-content'=>
-        "<p class=\"mb-2 pr-sm-5 pr-lg-0\" data-zanim-xs='{\"delay\":0.3}'>São impressões digitais em papel Hahnemühle Photo Rag ® Matt FineArt – 188 g. Este papel branco, 100% algodão, assegura às tiragens a preto e branco uma qualidade excepcional em termos de densidade, gradiente de cores e recorte da imagem, e garante uma excelente durabilidade.</p>
+        "<p class=\"mb-2 pr-sm-5 pr-lg-0\" data-zanim-xs='{\"delay\":0.3}'>São impressões digitais em papel Hahnemühle Gloss Art Fibre – 300 gsm. Este papel feito de 100% pura celulosa alfa assegura às tiragens a preto e branco uma qualidade excecional em termos de densidade, gradiente de cores e recorte da imagem, e garante uma excelente durabilidade.</p>
     24 x 40 cm (+ margem branca de 5 cm, limitado a 25 provas) 60 € ",
     'payment-heading'=>
         "Pagamentos",
     'payment-content'=>
-        " Pagamentos seguros on-line podem ser efectuados via PayPal. Também podem ser acordadas outras formas de pagamentos. Os custos de envio para Portugal estão incluídos. Para encomendar provas ou obter mais informação (outros formatos, direitos de reprodução) por favor <a href='/contact'>contacte Sebastião</a>",
+        " Outros formatos ou suportes são disponíveis. Os custos de envio para Portugal estão incluídos. Para encomendar provas ou obter mais informação (outros formatos, direitos de reprodução) por favor <a href='/contact'>contacte Sebastião</a>",
     ];
 ?>

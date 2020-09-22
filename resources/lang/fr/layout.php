@@ -2,7 +2,7 @@
 return [
     // Navigation
     'nav-portfolio'=>'portfolios',
-    'nav-profile'=>"sur l'autuer",
+    'nav-profile'=>"sur l'auteur",
     'nav-contact'=>'contact',
     'nav-prints'=>"tirages d'art",
     // Footer
