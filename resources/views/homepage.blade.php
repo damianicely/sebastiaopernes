@@ -88,16 +88,16 @@
                     <div class="item active" data-filter="*">all</div>
                     <div class="item" data-filter=".capestvincent">cape st vincent</div>
                     <div class="item" data-filter=".costavicentina">costa vicentina</div>
-                    <div class="item" data-filter=".stormwaves">storm waves</div>
+                    <div class="item" data-filter=".stormwaves">waves</div>
                     <div class="item" data-filter=".shorelines">shorelines</div>
-                    <div class="item" data-filter=".skylines">skylines</div>
+                    <div class="item" data-filter=".skylines">skies</div>
                     <div class="item" data-filter=".islands">islands</div>
                   </div>
   
                   <div class="row no-gutters sortable-container sortable-container-gutter-fix">
                     @foreach ($photos as $photo)
-                      <a class="col-6 col-md-3 sortable-item p-2 {{ str_replace(' ', '', $photo->collection) }}" href="x-{{ $photo->reference }}.jpg" data-lightbox="image" data-title="{{ $photo->reference }} - {{ $photo->description }}">
-                        <img class="w-100 rounded" src="t-{{ $photo->reference }}.jpg" alt=""/>
+                      <a class="col-6 col-md-3 sortable-item p-2 {{ str_replace(' ', '', $photo->collection) }}" href="photos/watermarked/x-{{ $photo->reference }}.jpg" data-lightbox="image" data-title="{{ $photo->reference }} - {{ $photo->description }}">
+                        <img class="w-100 rounded" src="photos/watermarked/t-{{ $photo->reference }}.jpg" alt=""/>
                       </a>                      
                     @endforeach
                   </div>
