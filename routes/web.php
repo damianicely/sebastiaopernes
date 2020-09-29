@@ -20,7 +20,7 @@ Route::get('/', function () {
 })->name('homepage');
 Route::get('/profile', function () { return view('profile'); })->name('profile');
 Route::get('/contact', function () { return view('contact'); })->name('contact');
-Route::post('/contact', function () { return view('contact'); })->name('contact');
+Route::post('/contact','ContactController@store')->name('contact.store');
 Route::get('/prints', function () { return view('prints'); })->name('prints');
 Route::get('/set-language/{locale}', 'LocalizationController@index');
 Route::get('/dashboard', function () {
