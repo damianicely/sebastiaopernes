@@ -15,7 +15,12 @@ class ContactController extends Controller
             'email' => 'required|email',
             'message' => 'required',
         ]);
-        Mail::raw(request('message'), function($message){
+        
+        $body="Email: ".request('email')."
+         Message: ".request('message');
+
+
+        Mail::raw($body, function($message){
             $message->to('damianicely@protonmail.com')->subject(request('name'));
         });
         return redirect()->route('contact')
