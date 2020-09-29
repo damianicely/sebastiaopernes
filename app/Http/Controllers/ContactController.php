@@ -16,7 +16,7 @@ class ContactController extends Controller
             'message' => 'required',
         ]);
         Mail::raw(request('message'), function($message){
-            $message->to(request('email'))->subject(request('name'));
+            $message->to('damianicely@gmail.com')->subject(request('name'));
         });
         return redirect()->route('contact')
         ->with('success',"Thank you for your message");
