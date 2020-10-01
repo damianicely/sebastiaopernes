@@ -1,5 +1,10 @@
 @extends('layout') 
 
+@section('title')
+Homepage | Sebastiao Pernes Photography
+@endsection
+
+
 @section('content')
     <!-- ===============================================-->
     <!--    Main Content-->

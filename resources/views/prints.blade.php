@@ -1,5 +1,9 @@
 @extends('layout')
 
+@section('title')
+Prints | Sebastiao Pernes Photography
+@endsection
+
 @section('content')
 <main class="main min-vh-100" id="top">
 
