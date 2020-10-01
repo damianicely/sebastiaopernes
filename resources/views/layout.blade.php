@@ -30,42 +30,8 @@
     <link href="/lib/lightbox2/css/lightbox.min.css" rel="stylesheet">
     <link href="/css/theme.css" rel="stylesheet">
     <style>
-      @media (max-width: 575.98px) {
-        .spalsh_one {background-image:url(img/lua-mobile.jpg);}
-        .spalsh_two {background-image:url(img/310-mobile.jpg);}
-        .spalsh_three {background-image:url(img/108-mobile.jpg);}
-        .spalsh_four {background-image:url(img/503-mobile.jpg);}
-        .spalsh_five {background-image:url(img/402-mobile.jpg);}
-      }
-      @media (min-width: 576px) {
-        .spalsh_one {background-image:url(img/lua-mobile.jpg);}
-        .spalsh_two {background-image:url(img/310-tablet.jpg);}
-        .spalsh_three {background-image:url(img/108-tablet.jpg);}
-        .spalsh_four {background-image:url(img/503-tablet.jpg);}
-        .spalsh_five {background-image:url(img/402-tablet.jpg);}
-      }
-      @media (min-width: 768px) {
-        .spalsh_one {background-image:url(img/m-102.jpg);}
-        .spalsh_two {background-image:url(img/m-114.jpg);}
-        .spalsh_three {background-image:url(img/m-201.jpg);}
-        .spalsh_four {background-image:url(img/m-303.jpg);}
-        .spalsh_five {background-image:url(img/m-504.jpg);}
-      }
-      @media (min-width: 992px) {
-        .spalsh_one {background-image:url(img/l-102.jpg);}
-        .spalsh_two {background-image:url(img/l-114.jpg);}
-        .spalsh_three {background-image:url(img/l-201.jpg);}
-        .spalsh_four {background-image:url(img/l-303.jpg);}
-        .spalsh_five {background-image:url(img/l-504.jpg);}
-      }
-      @media (min-width: 1200px) {
-        .spalsh_one {background-image:url(img/x-102.jpg);}
-        .spalsh_two {background-image:url(img/x-114.jpg);}
-        .spalsh_three {background-image:url(img/x-201.jpg);}
-        .spalsh_four {background-image:url(img/x-303.jpg);}
-        .spalsh_five {background-image:url(img/x-504.jpg);}
-      }
-      </style>
+          @yield('media')
+</style>
   </head>
 
   <body class="has-sidemenu overflow-hidden-x">
