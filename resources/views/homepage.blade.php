@@ -3,7 +3,7 @@
 
 @section('title')
 Homepage | Sebastiao Pernes Photography
-@endsection
+@endsection 
 
 @section('media')
 @media (max-width: 575.98px) {

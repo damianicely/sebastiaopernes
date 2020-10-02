@@ -157,15 +157,15 @@
     <!--    JavaScripts-->
     <!-- ===============================================-->
     <script src="/js/jquery.min.js"></script>
-    <script src="/js/popper.min.js"></script>
+    <!--    <script src="/js/popper.min.js"></script>-->
     <script src="/js/bootstrap.js"></script>
     <script src="/js/plugins.js"></script>
     <script src="/lib/loaders.css/loaders.css.js"></script>
-    <script src="/js/stickyfill.min.js"></script>
+    <!--    <script src="/js/stickyfill.min.js"></script>-->
     <script src="/lib/is_js/is.min.js"></script>
-    <script src="/lib/jtap/jquery.tap.js"></script>
-    <script src="/js/rellax.min.js"></script>
-    <script src="/lib/fancybox/jquery.fancybox.min.js"></script>
+    <!--     <script src="/lib/jtap/jquery.tap.js"></script>-->
+    <!--     <script src="/js/rellax.min.js"></script>-->
+    <!--     <script src="/lib/fancybox/jquery.fancybox.min.js"></script>-->
     <script src="/lib/owl.carousel/owl.carousel.js"></script>
     <script src="/lib/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="/lib/isotope-packery/packery-mode.pkgd.min.js"></script>
