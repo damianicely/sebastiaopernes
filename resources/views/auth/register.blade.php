@@ -70,7 +70,10 @@
                         </div>
                     </form>
  -->
- <h2>Registration is closed, Sorry!</h2>
+ <a href="https://sebastiaopernes.photography">
+ <p>Registration is closed, Sorry!</p>
+ </a>
+
                 </div>
             </div>
         </div>
