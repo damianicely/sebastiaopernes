@@ -29,9 +29,7 @@
     <link href="/lib/owl.carousel/owl.carousel.css" rel="stylesheet">
     <link href="/lib/lightbox2/css/lightbox.min.css" rel="stylesheet">
     <link href="/css/theme.css" rel="stylesheet">
-    <style>
-          @yield('media')
-</style>
+    <style>@yield('media')</style>
   </head>
 
   <body class="has-sidemenu overflow-hidden-x">

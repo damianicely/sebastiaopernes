@@ -7,18 +7,18 @@ Homepage | Sebastiao Pernes Photography
 
 @section('media')
 @media (max-width: 575.98px) {
-  .spalsh_one {background-image:url(img/lua-mobile.jpg);}
+  .spalsh_one {background-image:url(img/402-mobile.jpg);}
   .spalsh_two {background-image:url(img/310-mobile.jpg);}
   .spalsh_three {background-image:url(img/108-mobile.jpg);}
   .spalsh_four {background-image:url(img/503-mobile.jpg);}
-  .spalsh_five {background-image:url(img/402-mobile.jpg);}
+  .spalsh_five {background-image:url(img/lua-mobile.jpg);}
 }
 @media (min-width: 576px) {
-  .spalsh_one {background-image:url(img/lua-mobile.jpg);}
+  .spalsh_one {background-image:url(img/402-tablet.jpg);}
   .spalsh_two {background-image:url(img/310-tablet.jpg);}
   .spalsh_three {background-image:url(img/108-tablet.jpg);}
   .spalsh_four {background-image:url(img/503-tablet.jpg);}
-  .spalsh_five {background-image:url(img/402-tablet.jpg);}
+  .spalsh_five {background-image:url(img/lua-mobile.jpg);}
 }
 @media (min-width: 768px) {
   .spalsh_one {background-image:url(img/m-102.jpg);}
