@@ -25,9 +25,10 @@
     <!-- ===============================================-->
     <link href="/lib/loaders.css/loaders.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Mono%7cPT+Serif:400,400i%7cLato:100,300,400,700,800,900" rel="stylesheet">
-    <link href="/lib/owl.carousel/owl.carousel.min.css" rel="stylesheet">
+    <link href="/lib/fancybox/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="/lib/owl.carousel/owl.carousel.css" rel="stylesheet">
     <link href="/lib/lightbox2/css/lightbox.min.css" rel="stylesheet">
-    <link href="/css/theme.min.css" rel="stylesheet">
+    <link href="/css/theme.css" rel="stylesheet">
     <style>@yield('media')</style>
   </head>
 
@@ -155,19 +156,19 @@
     <!-- ===============================================-->
     <script src="/js/jquery.min.js"></script>
     <!--    <script src="/js/popper.min.js"></script>-->
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.js"></script>
     <script src="/js/plugins.js"></script>
     <script src="/lib/loaders.css/loaders.css.js"></script>
     <!--    <script src="/js/stickyfill.min.js"></script>-->
-    <!--    <script src="/lib/is_js/is.min.js"></script> -->
+    <script src="/lib/is_js/is.min.js"></script>
     <!--     <script src="/lib/jtap/jquery.tap.js"></script>-->
     <!--     <script src="/js/rellax.min.js"></script>-->
     <!--     <script src="/lib/fancybox/jquery.fancybox.min.js"></script>-->
-    <script src="/lib/owl.carousel/owl.carousel.min.js"></script>
+    <script src="/lib/owl.carousel/owl.carousel.js"></script>
     <script src="/lib/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="/lib/isotope-packery/packery-mode.pkgd.min.js"></script>
     <script src="/lib/lightbox2/js/lightbox.min.js"></script>
-    <script src="/js/theme.min.js"></script>
+    <script src="/js/theme.js"></script>
   </body>
 
 </html>
