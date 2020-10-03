@@ -156,7 +156,7 @@
     <!-- ===============================================-->
     <script src="/js/jquery.min.js"></script>
     <!--    <script src="/js/popper.min.js"></script>-->
-    <script src="/js/bootstrap.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
     <script src="/js/plugins.js"></script>
     <script src="/lib/loaders.css/loaders.css.js"></script>
     <!--    <script src="/js/stickyfill.min.js"></script>-->
@@ -168,7 +168,7 @@
     <script src="/lib/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="/lib/isotope-packery/packery-mode.pkgd.min.js"></script>
     <script src="/lib/lightbox2/js/lightbox.min.js"></script>
-    <script src="/js/theme.js"></script>
+    <script src="/js/theme.min.js"></script>
   </body>
 
 </html>
