@@ -19,7 +19,7 @@
     <link rel="manifest" href="/img/favicons/manifest.json">
     <meta name="msapplication-TileImage" content="/img/favicons/mstile-150x150.png">
     <meta name="theme-color" content="#ffffff">
-
+    <script async defer data-domain="sebastiaopernes.photography" src="https://plausible.io/js/plausible.js"></script>
     <!-- ===============================================-->
     <!--    Stylesheets-->
     <!-- ===============================================-->
@@ -28,7 +28,6 @@
     <link href="/lib/owl.carousel/owl.carousel.css" rel="stylesheet">
     <link href="/lib/lightbox2/css/lightbox.min.css" rel="stylesheet">
     <link href="/css/theme.css" rel="stylesheet">
-    @yield('head')
     <style>@yield('media')</style>
   </head>
 
