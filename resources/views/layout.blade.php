@@ -28,6 +28,7 @@
     <link href="/lib/owl.carousel/owl.carousel.css" rel="stylesheet">
     <link href="/lib/lightbox2/css/lightbox.min.css" rel="stylesheet">
     <link href="/css/theme.css" rel="stylesheet">
+    @yield('head')
     <style>@yield('media')</style>
   </head>
 

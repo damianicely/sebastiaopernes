@@ -5,6 +5,10 @@
 Homepage | Sebastiao Pernes Photography
 @endsection 
 
+@section('head')
+<script async defer data-domain="sebastiaopernes.photography" src="https://plausible.io/js/plausible.js"></script>
+@endsection 
+
 @section('media')
 @media (max-width: 575.98px) {
   .spalsh_one {background-image:url(img/402-mobile.jpg);}
