@@ -43,6 +43,7 @@ class PhotoController extends Controller
      */
     public function store(Request $request)
     {
+        dd('boo');
         $request->validate([
             'reference' => 'required',
             'collection' => 'required',
