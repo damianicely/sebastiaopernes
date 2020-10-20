@@ -15,8 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('homepage', [
-        'photos' => App\Photo::where('height', NULL)
-        ->orderBy('reference', 'desc')
+        'photos' => DB::table('photos')
+        ->orderBy('reference', 'asc')
         ->get()
     ]);
 })->name('homepage');
