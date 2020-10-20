@@ -109,7 +109,7 @@ Homepage | Sebastiao Pernes Photography
                   <div class="row align-items-center mt-2">
                     <div class="col-12 overflow-hidden">
                       <div data-zanim-xs='{"delay":0.1}' class="float-right">
-                        <a class="btn btn-dark btn-sm" href="#portfolio">Portfolio</a>
+                        <a class="btn btn-dark btn-sm" href="#portfolio">@lang('home.portfolio')</a>
                       </div>
                     </div>  
                   </div>
