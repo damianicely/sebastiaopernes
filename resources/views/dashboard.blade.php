@@ -27,8 +27,8 @@
                 @if ($photo->collection == "costa vicentina")
                     <div class="row">
                         <div class="col">
-                            <a href="photos/originals/x-{{ $photo->reference }}.jpg">
-                                <img width="100px" src="photos/originals/t-{{ $photo->reference }}.jpg" alt="">
+                            <a href="photos/watermarked/x-{{ $photo->reference }}.jpg">
+                                <img width="100px" src="photos/watermarked/t-{{ $photo->reference }}.jpg" alt="">
                             </a>
                         </div>
                         <div class="col">
