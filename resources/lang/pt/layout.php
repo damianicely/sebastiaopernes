@@ -1,7 +1,7 @@
 <?php
 return [
     // Navigation
-    'nav-portfolio'=>'portfolio',
+    'nav-portfolio'=>'portfólio',
     'nav-profile'=>'sobre',
     'nav-contact'=>'contato',
     'nav-prints'=>'provas',
