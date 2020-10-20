@@ -133,7 +133,7 @@
                     @else
                         text-500
                     @endif
-                    " href="/set-language/fr">Francais</a>
+                    " href="/set-language/fr">Français</a>
               </li>
               <li>
                 <a class="pt-1 d-block 
@@ -142,7 +142,7 @@
                     @else
                         text-500
                     @endif
-                    " href="/set-language/pt">Portugues</a>
+                    " href="/set-language/pt">Português</a>
               </li>
             </ul>
           </div>

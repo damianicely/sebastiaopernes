@@ -9,7 +9,7 @@ return [
         "PROVAS EM DIASEC ",
     'diasic-content'=>
         "<p class=\"mb-0 pr-sm-5 pr-lg-0\" data-zanim-xs='{\"delay\":0.3}'>São impressões digitais de alta qualidade em papel Epson, certificadas Digigraphie ® e montadas em Diasec ®, um processo exclusivo de montagem de uma fotografia. Esta fica ligada de forma permanente por meio de componentes químicos a um vidro acrílico na frente, e no verso, vem fixada numa estrutura Dibond ®, que lhe confere rigidez. Assim a prova não carece de moldura e está pronta a ser colocada na parede.</p>
-        <p class=\"mb-2 pr-sm-5 pr-lg-0\" data-zanim-xs='{\"delay\":0.3}'>Este processo realce a claridade, o contraste e a nitidez da imagem, e confere uma notável subtileza à gama de cinzentos. Também garante uma comprovada estabilidade e longevidade das provas, o que explica a crescente popularidade deste processo para apresentação de obras de arte em museus e galerias.</p>
+        <p class=\"mb-2 pr-sm-5 pr-lg-0\" data-zanim-xs='{\"delay\":0.3}'>Este processo realça a claridade, o contraste e a nitidez da imagem, e confere uma notável subtileza à gama de cinzentos. Também garante uma comprovada estabilidade e longevidade das provas, o que explica a crescente popularidade deste processo para apresentação de obras de arte em museus e galerias.</p>
         <ul class=\"list-unstyled mb-0 pr-sm-5 pr-lg-0\" data-zanim-xs='{\"delay\":0.3}'>
             <li>24 x 40 cm (limitado a 20 provas) 105 €</li>
             <li>35 x 60 cm (limitado a 15 provas) 230 €</li>
@@ -18,11 +18,11 @@ return [
         </ul> ",
     'paper-heading'=>"IMPRESSÕES EM PAPEL HAHNEMUELE",
     'paper-content'=>
-        "<p class=\"mb-2 pr-sm-5 pr-lg-0\" data-zanim-xs='{\"delay\":0.3}'>São impressões digitais em papel Hahnemühle Gloss Art Fibre – 300 gsm. Este papel feito de 100% pura celulosa alfa assegura às tiragens a preto e branco uma qualidade excecional em termos de densidade, gradiente de cores e recorte da imagem, e garante uma excelente durabilidade.</p>
+        "<p class=\"mb-2 pr-sm-5 pr-lg-0\" data-zanim-xs='{\"delay\":0.3}'>São impressões digitais em papel Hahnemühle Gloss Art Fibre – 300 gsm. Este papel feito de 100% pura celulose alfa assegura às tiragens a preto e branco uma qualidade excecional em termos de densidade, gradiente de cores e recorte da imagem, e garante uma excelente durabilidade.</p>
     24 x 40 cm (+ margem branca de 5 cm, limitado a 25 provas) 60 € ",
     'payment-heading'=>
         "Pagamentos",
     'payment-content'=>
-        " Outros formatos ou suportes são disponíveis. Os custos de envio para Portugal estão incluídos. Para encomendar provas ou obter mais informação (outros formatos, direitos de reprodução) por favor <a href='/contact'>contacte Sebastião</a>",
+        " Outros formatos ou suportes estão disponíveis. Os custos de envio para Portugal estão incluídos. Para encomendar provas ou obter mais informação (outros formatos, direitos de reprodução) por favor <a href='/contact'>contacte Sebastião</a>",
     ];
 ?>

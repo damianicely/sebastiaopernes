@@ -56,12 +56,12 @@ Profile | Sebastiao Pernes Photography
                         <ul>
                           <li>«Mar Oceano» - EMARP, Portimão - 2017</li>
                           <li>«Mar Oceano» - Vila do Bispo - 2016</li>
-                          <li>«Mar Oceano» - Old Townhall, Lagos - 2015</li>
+                          <li>«Mar Oceano» - Antigos Paços do Concelho, Lagos - 2015</li>
                           <li>Collective - Real Compromisso Marítimo, Ferragudo - 2015</li>
                           <li>«Mar Oceano» - Museu da Terra e do Mar, Carrapateira - 2015</li>
                           <li>«Mar Oceano» - Espaço + , Aljezur - 2015</li>
-                          <li>«Mar Oceano» - Museum of Portimão, 2014</li>
-                          <li>«Lagos: marítimos e marinhas» - Lagos Cultural Center, 2007</li>
+                          <li>«Mar Oceano» - Museu de Portimão, 2014</li>
+                          <li>«Lagos: marítimos e marinhas» - Centro Cultural de Lagos, 2007</li>
                           <li>«Orla costeira de Vila do Bispo» - Vila do Bispo, Faro, Aljezur, Portimão, 2001|2004</li>
                           <li>«Flora algarvia» - São Brás de Alportel, Silves, Lagos, Sagres, 1995|1997</li>
                         </ul>
