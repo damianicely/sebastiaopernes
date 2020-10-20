@@ -128,13 +128,13 @@ Homepage | Sebastiao Pernes Photography
                 <h2 class="mb-5 text-underline">Portfolio</h2>
                 <div class="sortable" data-options='{"layoutMode":"fitRows"}'>
                   <div class="menu justify-content-center mb-2">
-                    <div class="item active" data-filter="*">all</div>
-                    <div class="item" data-filter=".capestvincent">cape st vincent</div>
-                    <div class="item" data-filter=".costavicentina">costa vicentina</div>
-                    <div class="item" data-filter=".stormwaves">waves</div>
-                    <div class="item" data-filter=".shorelines">shorelines</div>
-                    <div class="item" data-filter=".skylines">skies</div>
-                    <div class="item" data-filter=".islands">islands</div>
+                    <div class="item active" data-filter="*">@lang('home.all')</div>
+                    <div class="item" data-filter=".capestvincent">@lang('home.cape')</div>
+                    <div class="item" data-filter=".costavicentina">@lang('home.costa')</div>
+                    <div class="item" data-filter=".stormwaves">@lang('home.waves')</div>
+                    <div class="item" data-filter=".shorelines">@lang('home.shores')</div>
+                    <div class="item" data-filter=".skylines">@lang('home.skies')</div>
+                    <div class="item" data-filter=".islands">@lang('home.islands')</div>
                   </div>
   
                   <div class="row no-gutters sortable-container sortable-container-gutter-fix">
