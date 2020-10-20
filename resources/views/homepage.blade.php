@@ -125,7 +125,7 @@ Homepage | Sebastiao Pernes Photography
           <div class="container">
             <div class="row mb-5">
               <div class="col">
-                <h2 class="mb-5 text-underline">Portfolio</h2>
+                <h2 class="mb-5 text-underline">@lang('home.portfolio')</h2>
                 <div class="sortable" data-options='{"layoutMode":"fitRows"}'>
                   <div class="menu justify-content-center mb-2">
                     <div class="item active" data-filter="*">@lang('home.all')</div>
