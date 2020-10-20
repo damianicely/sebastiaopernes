@@ -27,7 +27,9 @@ Route::get('/prints', function () { return view('prints'); })->name('prints');
 Route::get('/set-language/{locale}', 'LocalizationController@index');
 Route::get('/dashboard', function () {
     return view('dashboard', [
-        'photos' => App\Photo::all()
+        'photos' => DB::table('photos')
+        ->orderBy('reference', 'asc')
+        ->get()
     ]);
 })->name('dashboard');
 
