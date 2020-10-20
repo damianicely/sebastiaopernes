@@ -11,7 +11,7 @@ class PhotoController extends Controller
 {
     public function __construct()
     {
-        $this->authorizeResource(Photo::class, 'photo')->orderBy('reference', 'desc')->get();
+        $this->authorizeResource(Photo::class, 'photo');
     }
 
     /**
