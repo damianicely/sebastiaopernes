@@ -57,7 +57,7 @@
           <a class="fancynavbar-addon-item" href="{{ route('login') }}"><span class="fas fa-unlock"></span></a>
           <a class="fancynavbar-addon-item" href="{{ route('contact') }}"><span class="far fa-envelope"></span></a>
           <a class="fancynavbar-addon-item" href="#languageModal" data-toggle="modal">
-            <span class="text-sans-serif ls font-weight-black fs--1 d-block text-capitalize">
+            <span class="text-sans-serif ls font-weight-black fs--1 d-block text-uppercase">
               {{ $locale }}
             </span>
           </a>
