@@ -15,7 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('homepage', [
-        'photos' => App\Photo::all()->orderBy('reference', 'desc')
+        'photos' => App\Photo::where('height', NULL)
+        ->orderBy('reference', 'desc')
+        ->get()
     ]);
 })->name('homepage');
 Route::get('/profile', function () { return view('profile'); })->name('profile');
