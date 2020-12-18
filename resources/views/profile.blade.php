@@ -30,7 +30,7 @@ Profile | Sebastiao Pernes Photography
         <div class="row">
           <div class="col-xl-7 px-0">
             <div class="sticky-top overflow-hidden min-vh-50 min-vh-xl-100">
-              <div class="bg-holder" style="background-image:url(/img/profile.jpg);"></div>
+              <div class="bg-holder" style="background-image:url(/img/profile2.jpg);"></div>
               <!--/.bg-holder-->
             </div>
           </div>

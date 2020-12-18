@@ -8,7 +8,9 @@ Homepage | Sebastiao Pernes Photography
 @section('media')
 @media (max-width: 575.98px) {
   .spalsh_one {background-image:url(img/402-mobile.jpg);}
+        <!-- Use 310 for mobile version of site-->
   .spalsh_two {background-image:url(img/310-mobile.jpg);}
+        <!-- ============================================-->
   .spalsh_three {background-image:url(img/108-mobile.jpg);}
   .spalsh_four {background-image:url(img/503-mobile.jpg);}
   .spalsh_five {background-image:url(img/lua-mobile.jpg);}
