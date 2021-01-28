@@ -23,6 +23,6 @@ return [
     'payment-heading'=>
         "Pagamentos",
     'payment-content'=>
-        " Outros formatos ou suportes estão disponíveis. Os custos de envio para Portugal estão incluídos. Para encomendar provas ou obter mais informação (outros formatos, direitos de reprodução) por favor <a href='/contact'>contacte Sebastião</a>",
+        " Outros formatos ou suportes estão disponíveis. Os custos de envio para Portugal estão incluídos. Para encomendar provas ou obter mais informação (outros formatos, direitos de reprodução) por favor <a href='/contact'>contacte Sebastião</a>. Pagamentos em bitcoin ou outras cryptmoedas aceitados.",
     ];
 ?>

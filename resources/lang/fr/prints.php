@@ -28,6 +28,6 @@ return [
     'payment-heading'=>
         "Paiement",
     'payment-content'=>
-        "D’autres formats ou supports sont disponibles. Les frais de port pour le Portugal sont inclus.  Pour passer une commande ou obtenir plus d'information (autres formats, droits de reproduction), prière de <a href='/contact'>contacter Sebastião</a>",
+        "D’autres formats ou supports sont disponibles. Les frais de port pour le Portugal sont inclus.  Pour passer une commande ou obtenir plus d'information (autres formats, droits de reproduction), prière de <a href='/contact'>contacter Sebastião</a>. Paiements en  bitcoins ou autres cryptomonnaies possible",
     ];
 ?>

@@ -23,6 +23,6 @@ return [
     'payment-heading'=>"Payment",
     'payment-content'=>"
     Other formats and medium are available on demand.  Postage for Portugal is included in the price.
-        To order prints, for additional informations or other options (different formats or reproduction rights), please <a href='/contact'> contact Sebastião </a>",
+        To order prints, for additional informations or other options (different formats or reproduction rights), please <a href='/contact'> contact Sebastião </a>. Payment in Bitcoins or other crypto currencies accepted.",
     ];
 ?>
