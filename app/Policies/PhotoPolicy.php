@@ -53,7 +53,7 @@ class PhotoPolicy
      */
     public function update(User $user, Photo $photo)
     {
-        //
+        return $user->admin;
     }
 
     /**

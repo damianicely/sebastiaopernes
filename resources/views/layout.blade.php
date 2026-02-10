@@ -54,7 +54,11 @@
           </svg>
         </div>
         <div class="fancynavbar-addon" data-zanim-lg='{"from":{"opacity":1,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}' data-zanim-trigger="scroll">
+          @guest
           <a class="fancynavbar-addon-item" href="{{ route('login') }}"><span class="fas fa-unlock"></span></a>
+          @else
+          <a class="fancynavbar-addon-item" href="{{ route('dashboard') }}" title="@lang('layout.nav-dashboard')"><span class="fas fa-lock"></span></a>
+          @endguest
           <a class="fancynavbar-addon-item" href="{{ route('contact') }}"><span class="far fa-envelope"></span></a>
           <a class="fancynavbar-addon-item" href="#languageModal" data-toggle="modal">
             <span class="text-sans-serif ls font-weight-black fs--1 d-block text-uppercase">

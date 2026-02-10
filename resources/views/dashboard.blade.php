@@ -36,9 +36,12 @@
                             <p>{{ $photo->description }}</p>
                         </div>
                         <div class="col">
-                            <a href="{{ route('photos.destroy', $photo->id )}}">
-                                Delete
-                            </a>
+                            <a href="{{ route('photos.edit', $photo) }}">Edit</a>
+                            <form method="POST" action="{{ route('photos.destroy', $photo) }}" class="d-inline" onsubmit="return confirm('Delete this photo?');">
+                                @csrf
+                                @method('DELETE')
+                                <button type="submit" class="btn btn-link p-0 text-danger">Delete</button>
+                            </form>
                         </div>
                     </div>
                 @endif
@@ -61,9 +64,12 @@
                             <p>{{ $photo->description }}</p>
                         </div>
                         <div class="col">
-                            <a href="{{ route('photos.destroy', $photo->id )}}">
-                                Delete
-                            </a>
+                            <a href="{{ route('photos.edit', $photo) }}">Edit</a>
+                            <form method="POST" action="{{ route('photos.destroy', $photo) }}" class="d-inline" onsubmit="return confirm('Delete this photo?');">
+                                @csrf
+                                @method('DELETE')
+                                <button type="submit" class="btn btn-link p-0 text-danger">Delete</button>
+                            </form>
                         </div>
                     </div>
                 @endif
@@ -86,9 +92,12 @@
                             <p>{{ $photo->description }}</p>
                         </div>
                         <div class="col">
-                            <a href="{{ route('photos.destroy', $photo->id )}}">
-                                Delete
-                            </a>
+                            <a href="{{ route('photos.edit', $photo) }}">Edit</a>
+                            <form method="POST" action="{{ route('photos.destroy', $photo) }}" class="d-inline" onsubmit="return confirm('Delete this photo?');">
+                                @csrf
+                                @method('DELETE')
+                                <button type="submit" class="btn btn-link p-0 text-danger">Delete</button>
+                            </form>
                         </div>
                     </div>
                 @endif
@@ -111,9 +120,12 @@
                             <p>{{ $photo->description }}</p>
                         </div>
                         <div class="col">
-                            <a href="{{ route('photos.destroy', $photo->id )}}">
-                                Delete
-                            </a>
+                            <a href="{{ route('photos.edit', $photo) }}">Edit</a>
+                            <form method="POST" action="{{ route('photos.destroy', $photo) }}" class="d-inline" onsubmit="return confirm('Delete this photo?');">
+                                @csrf
+                                @method('DELETE')
+                                <button type="submit" class="btn btn-link p-0 text-danger">Delete</button>
+                            </form>
                         </div>
                     </div>
                 @endif
@@ -136,9 +148,12 @@
                             <p>{{ $photo->description }}</p>
                         </div>
                         <div class="col">
-                            <a href="{{ route('photos.destroy', $photo->id )}}">
-                                Delete
-                            </a>
+                            <a href="{{ route('photos.edit', $photo) }}">Edit</a>
+                            <form method="POST" action="{{ route('photos.destroy', $photo) }}" class="d-inline" onsubmit="return confirm('Delete this photo?');">
+                                @csrf
+                                @method('DELETE')
+                                <button type="submit" class="btn btn-link p-0 text-danger">Delete</button>
+                            </form>
                         </div>
                     </div>
                 @endif
@@ -161,9 +176,12 @@
                             <p>{{ $photo->description }}</p>
                         </div>
                         <div class="col">
-                            <a href="{{ route('photos.destroy', $photo->id )}}">
-                                Delete
-                            </a>
+                            <a href="{{ route('photos.edit', $photo) }}">Edit</a>
+                            <form method="POST" action="{{ route('photos.destroy', $photo) }}" class="d-inline" onsubmit="return confirm('Delete this photo?');">
+                                @csrf
+                                @method('DELETE')
+                                <button type="submit" class="btn btn-link p-0 text-danger">Delete</button>
+                            </form>
                         </div>
                     </div>
                 @endif

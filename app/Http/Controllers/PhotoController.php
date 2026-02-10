@@ -9,30 +9,20 @@ use Spatie\ImageOptimizer\OptimizerChainFactory;
 
 class PhotoController extends Controller
 {
-    public function __construct()
-    {
-        $this->authorizeResource(Photo::class, 'photo');
-    }
-
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        //
-    }
-
     /**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
      */
+    public function index()
+    {
+        return redirect()->route('dashboard');
+    }
+
     public function create()
     {
+        $this->authorize('create', Photo::class);
         return view('photos.create');
-        //
     }
 
     /**
@@ -43,6 +33,7 @@ class PhotoController extends Controller
      */
     public function store(Request $request)
     {
+        $this->authorize('create', Photo::class);
         $request->validate([
             'reference' => 'required',
             'collection' => 'required',
@@ -67,8 +58,7 @@ class PhotoController extends Controller
             'file_path' => $path,
         ]);
         return redirect()->route('dashboard')
-        ->with('success',"$photoName added successfully please wait a couple of minutes for the photo to be optimized");
-;
+            ->with('success', "$photoName added successfully please wait a couple of minutes for the photo to be optimized");
     }
 
     /**
@@ -79,6 +69,7 @@ class PhotoController extends Controller
      */
     public function show(Photo $photo)
     {
+        return abort(404);
     }
 
     /**
@@ -89,7 +80,8 @@ class PhotoController extends Controller
      */
     public function edit(Photo $photo)
     {
-        //
+        $this->authorize('update', $photo);
+        return view('photos.edit', compact('photo'));
     }
 
     /**
@@ -101,7 +93,34 @@ class PhotoController extends Controller
      */
     public function update(Request $request, Photo $photo)
     {
-        //
+        $this->authorize('update', $photo);
+        $rules = [
+            'reference' => 'required',
+            'collection' => 'required',
+            'description' => 'required',
+        ];
+        if ($request->hasFile('photofile')) {
+            $rules['photofile'] = 'required|mimes:jpeg';
+        }
+        $request->validate($rules);
+
+        $data = [
+            'reference' => $request->reference,
+            'collection' => $request->collection,
+            'description' => $request->description,
+        ];
+        if ($request->hasFile('photofile')) {
+            Storage::delete($photo->file_path);
+            $photoPath = $request->file('photofile');
+            $photoName = $photoPath->getClientOriginalName();
+            $path = Storage::putFileAs('photos/uploads', $photoPath, $request->reference);
+            $data['file_name'] = $photoName;
+            $data['file_path'] = $path;
+        }
+        $photo->update($data);
+
+        return redirect()->route('dashboard')
+            ->with('success', "Photo {$photo->reference} updated successfully.");
     }
 
     /**
@@ -112,6 +131,7 @@ class PhotoController extends Controller
      */
     public function destroy(Photo $photo)
     {
+        $this->authorize('delete', $photo);
         Storage::delete($photo->file_path);
         $photoRef = $photo->reference;
 

@@ -21,7 +21,8 @@ Message: ".request('message');
 
 
         Mail::raw($body, function($message){
-            $message->to('photographia@protonmail.com')->subject(request('name'));
+            //info@sebastiaopernes.photography
+            $message->to('info@sebastiaopernes.photography')->subject(request('name'));
         });
         return redirect()->route('contact')
         ->with('success',"Thank you for your message");
